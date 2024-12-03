@@ -1,0 +1,177 @@
+/* Slider container que cubre todo el ancho de la pantalla */
+.slider-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Ajuste opcional para cubrir todo el alto de la pantalla */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos de la imagen para que se ajuste completamente al contenedor */
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantener la proporción de la imagen */
+}
+
+/* Título de la imagen con fondo transparente */
+.slider-title {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos de los botones de navegación */
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 48px;
+  color: rgb(32, 114, 15);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slider-button.left {
+  left: 20px;
+}
+
+.slider-button.right {
+  right: 20px;
+}
+.slider-container {
+  display: flex; /* Usar flexbox para alinear elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente el contenido */
+  width: 100vw; /* Ancho completo de la ventana */
+  height: 100vh; /* Altura completa de la ventana */
+  position: relative; /* Posición relativa para los botones */
+  overflow: hidden; /* Ocultar contenido desbordante */
+}
+
+/* Estilo para el encabezado */
+.header {
+  display: flex; /* Usar flexbox para alinear el logo y el título */
+  align-items: center; /* Centrar verticalmente el logo y el título */
+  justify-content: center; /* Centrar horizontalmente */
+  position: absolute; /* Posición absoluta para superponer sobre el slider */
+  top: 20px; /* Espacio desde la parte superior */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Ajustar el centrado */
+  z-index: 10; /* Asegurarse de que esté por encima del contenido */
+}
+
+/* Estilo para el logo */
+.logo {
+  height: 50px; /* Ajustar altura del logo */
+  margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+/* Estilo para el título de la empresa */
+.company-title {
+  font-size: 24px; /* Tamaño de fuente */
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para la imagen del slider */
+.slider-image {
+  max-width: 60%; /* Ajustar ancho máximo de la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+/* Estilo para el contenedor del título */
+.slider-title {
+  margin-left: 20px; /* Espaciado entre la imagen y el título */
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para los botones */
+.slider-button {
+  background-color: rgba(7, 81, 18, 0.783); /* Fondo semitransparente */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  z-index: 10; /* Asegurarse de que los botones estén por encima */
+}
+
+.slider-button.left {
+  position: absolute; /* Posicionar absolutamente */
+  left: 10px; /* Espacio desde el lado izquierdo */
+}
+
+.slider-button.right {
+  position: absolute; /* Posicionar absolutamente */
+  right: 10px; /* Espacio desde el lado derecho */
+}
+
+/* Estilo para el encabezado de la imagen */
+h2 {
+  margin: 0; /* Eliminar margen predeterminado */
+  font-size: 24px; /* Tamaño de fuente */
+}
+
+/* Estilos adicionales para mejorar la apariencia en dispositivos móviles */
+@media (max-width: 768px) {
+  .slider-title {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .slider-button {
+    font-size: 36px;
+  }
+}
+/* General */
+body {
+  font-size: 16px; /* Base size, puedes aumentarla */
+}
+
+/* Top section links */
+.site-header__top a {
+  font-size: 1.2rem; /* Ajusta según tus necesidades */
+}
+
+/* Brand text */
+.brand {
+  font-size: 2rem; /* Ajusta el tamaño de "Brand" */
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav__wrapper .nav__item a {
+  font-size: 1.5rem; /* Agranda los enlaces de navegación */
+}
+
+/* Buttons and action links */
+.site-header__end a,
+.site-header__end .button {
+  font-size: 1.3rem;
+}
+
+/* Search input */
+.search__form input {
+  font-size: 1rem;
+}
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Cart and Profile icons text (si tienen texto) */
+.cart svg,
+.profile svg {
+  font-size: 1.2rem;
+}
+
