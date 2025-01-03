@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import pic09 from "./pictures/pic09.jpg";
 
 import { Grid, Container, Typography, Box, Paper } from "@mui/material";
 const Aboutme = () => {
@@ -8,17 +9,17 @@ const Aboutme = () => {
         {/* Imagen de la empresa en el lado izquierdo */}
         <Grid item xs={12} md={6}>
           <Box display="flex" justifyContent="center" sx={{ height: "100%" }}>
-            <img
-              src="images/pic09.jpg" // Cambia esta ruta según tu imagen
-              alt="Empresa Ártico"
-              style={{
-                width: "100%",
-                height: "auto",
-                objectFit: "cover",
-                borderRadius: "12px",
-                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-              }}
-            />
+          <img
+  src={pic09}
+  alt="Empresa Ártico"
+  style={{
+    width: "100%",
+    height: "auto",
+    objectFit: "cover",
+    borderRadius: "12px",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+  }}
+/>
           </Box>
         </Grid>
 
