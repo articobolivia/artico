@@ -1,5 +1,5 @@
 import React from 'react';
-import elaboration from './Images/tilde.png';
+import elaboration from './Images/dos.jpg';
 import tilde from './Images/copo.png';
 import * as stylesMM from '../stylesMM';
 
@@ -44,12 +44,7 @@ const Elaboration = () => {
           </div>
         </div>
 
-        {/* Botón de acción */}
-        <div className="mt-6 text-center">
-          <button className={`${stylesMM.CARD_BUTTON} px-8 py-3 rounded-lg text-white bg-cyan-500 hover:bg-cyan-600`}>
-            Descubre Nuestros Productos
-          </button>
-        </div>
+       
       </div>
 
       {/* Imagen */}

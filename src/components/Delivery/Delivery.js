@@ -18,8 +18,8 @@ const Delivery = () => {
         {/* Información sobre la cotización y pedido */}
         <div className="flex flex-col font-sans: 'Roboto' content-center pt-6 mx-2 container-text lg:mx-0 gap-y-5 lg:gap-y-8">
           <div className="text-xl font-semibold container-title md:text-2xl xl:text-3xl">
-            <p className="text-green-700">¡Haz tu Pedido en Bolivia!</p>
-            <p className="pb-3">¡ARTICO S.R.L!</p>
+            <p className="text-red-700">¡Haz tu Pedido en Bolivia!</p>
+            <p className="pb-3">ARTICO</p>
           </div>
 
           <div className="container-p md:text-lg">
@@ -42,11 +42,7 @@ const Delivery = () => {
           </div>
 
           {/* Botón de acción */}
-          <div>
-            <button className={`${stylesMM.CARD_BUTTON} px-8 py-3 rounded-lg text-white bg-cyan-500 hover:bg-cyan-600`}>
-              Haz tu Pedido Online Ahora
-            </button>
-          </div>
+        
         </div>
       </div>
     </div>

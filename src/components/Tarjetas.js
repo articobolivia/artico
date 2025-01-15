@@ -27,12 +27,16 @@ const Tarjetas = () => {
 
   return (
     <>
-      <div className="mt-4 mb-10 text-center">
-  <h1 className="text-5xl font-bold text-blue-600 hover:text-blue-800 transition-all duration-300">
-    Principales Productos
-  </h1>
-</div>
-
+    <div className="text-center">
+        <h1 className="relative mt-4 mb-10 text-4xl font-semibold text-gray-800 inline-block">
+        PRINCIPALES PRODUCTOS
+          
+          <span
+            className="absolute bottom-[-10px] left-0 right-0 mx-auto h-1 bg-red-500"
+            style={{ width: "100%", marginTop: "10px" }}
+          ></span>
+        </h1>
+      </div>
 
       <div className={stylesMM.MAIN_CONTAINER}>
         {/* Primer tarjeta */}
@@ -131,9 +135,9 @@ const Tarjetas = () => {
         <div className="object-center">
           <div className="mt-2 ml-12 w-96">
             <h2 className="justify-center mt-2 font-sans text-3xl font-semibold text-black ml-14 w-96">
-              Lo que tenés{" "}
+              Productos{" "}
               <span className="font-serif text-3xl font-semibold text-cyan-600">
-                que saber!
+                Artico
               </span>
             </h2>
             <p className="mt-10 ml-20 text-base text-justify text-black h-2/3">

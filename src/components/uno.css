@@ -168,6 +168,89 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+/* General Styles */
+.header {
+  background-color: #00416d; /* Azul oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px 0;
+  border-bottom: 3px solid #ffd700; /* Amarillo dorado */
+}
+
+/* Logo */
+.site-branding img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menu Styles */
+.primary-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-menu li {
+  position: relative;
+  padding: 10px 15px;
+}
+
+.primary-menu a {
+  color: #ffffff; /* Texto blanco */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.primary-menu a:hover {
+  color: #ffd700; /* Amarillo dorado al pasar el cursor */
+}
+
+/* Dropdown Menu */
+.primary-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #00416d; /* Mismo fondo que el encabezado */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ffd700;
+}
+
+.primary-menu li:hover .sub-menu {
+  display: block;
+}
+
+.primary-menu .sub-menu li {
+  padding: 10px;
+}
+
+.primary-menu .sub-menu a {
+  font-size: 14px;
+}
+
+/* Iconos */
+.menu-link i,
+.sub-menu-toggle {
+  color: #ffd700; /* Amarillo dorado */
+  margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .primary-menu {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .menu-link {
+      display: inline-block;
+      cursor: pointer;
+  }
+}
 
 /* Cart and Profile icons text (si tienen texto) */
 .cart svg,

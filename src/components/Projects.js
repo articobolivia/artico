@@ -45,79 +45,79 @@ const Projects = () => {
     const projectData = [
         {
             title: "AISLAMIENTO DE NEOPRENO",
-            description: "Aplicación desarrollada en ReactJs usando librerías específicas.",
+            description: "Producto Disponible",
             image: require('./pictures/pic01.jpg'),
-            category: "Sistemas de Refrigeración"
+            category: "Componentes de Refrigeración"
         },
         {
             title: "CORTINA DE MEDIA TEMPERATURA",
-            description: "Aplicación desarrollada en ReactJs usando librerías específicas.",
+            description: "Producto Disponible",
             image: require('./pictures/pic02.jpg'),
-            category: "Sistemas de Refrigeración"
+            category: "Componentes de Refrigeración"
         },
         {
             title:"CORTINA ANTI INSECTOS",
-            description: "Aplicación desarrollada en ReactJs usando librerías específicas.",
+            description: "Producto Disponible",
             image: require('./pictures/pic03.jpg'),
-            category: "Sistemas de Refrigeración"
+            category: "Componentes de Refrigeración"
         },
         {
             title: "ELEMENTO LIQUIDO",
-            description: "Aplicación desarrollada en ReactJs usando librerías específicas.",
+            description: "Producto Disponible",
             image: require('./pictures/pic04.jpg'),
-            category: "Sistemas de Refrigeración"
+            category: "Componentes de Refrigeración"
         },
         {
             title: "ELEMENTO LIQUIDO",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic05.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "FILTRO SECADOR",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic06.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "PANELES DE POLIURETANO",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic07.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "PRESOSTATO MARCA DANFOS",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic08.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "RIEL PARA CORTINA PVC",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic09.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "UNIDAD DE REFRIGERACION 2",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic10.jpg'),
             category: "Sistemas de Refrigeración"
         },
         {
             title: "VALVULA BOLA",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic11.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "VENTILADORES WEIGUANG",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic12.jpg'),
             category: "Componentes de Refrigeración"
         },
         {
             title: "VISORT DE LIQUIDO",
-            description: "Aplicación desarrollada en Python 3.6.0.",
+            description: "Producto Disponible",
             image: require('./pictures/pic13.jpg'),
             category: "Componentes de Refrigeración"
         },

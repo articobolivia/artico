@@ -8,56 +8,62 @@ const ContactList = () => {
   return (
     <Box sx={{ backgroundColor: "#f1f1f1", padding: "40px 0" }}>
       <Container>
-        <Typography variant="h4" align="center" gutterBottom sx={{ color: "#0277bd" }}>
+        <Typography variant="h4" align="center" gutterBottom sx={{ color: "#013E6F" }}>
           ¡Contáctanos!
         </Typography>
 
         <Grid container spacing={4} justifyContent="center">
           {/* Primer bloque de contacto */}
           <Grid item xs={12} md={4} textAlign="center">
-            <Typography variant="h6" gutterBottom sx={{ color: "#0277bd" }}>
+            <Typography variant="h6" gutterBottom sx={{ color: "#013E6F" }}>
               Llamanos a:
             </Typography>
             <Button
               variant="contained"
               color="primary"
               startIcon={<PhoneIcon />}
-              href="tel:+59167709689"
-              sx={{ fontSize: "1.2rem", padding: "10px 20px", marginBottom: "20px" }}
+              href="tel:+591 76098537"
+              sx={{ fontSize: "1.2rem", padding: "10px 20px", marginBottom: "20px",  marginBottom: "10px",
+                backgroundColor: "#013E6F",}}
             >
-              Ventas 1: 67709689
+              Ventas 1:  76098537
             </Button>
             <br />
             <Button
               variant="contained"
               color="primary"
               startIcon={<PhoneIcon />}
-              href="tel:+59171093843"
-              sx={{ fontSize: "1.2rem", padding: "10px 20px" }}
+              href="tel:+59169080574"
+              sx={{ fontSize: "1.2rem", padding: "10px 20px",  marginBottom: "10px",
+                backgroundColor: "#013E6F", }}
             >
-              Ventas 2: 71093843
+              
+              Ventas 2: 69080574
             </Button>
           </Grid>
 
           {/* Bloque de contacto por email */}
           <Grid item xs={12} md={4} textAlign="center">
-            <Typography variant="h6" gutterBottom sx={{ color: "#0277bd" }}>
+            <Typography variant="h6" gutterBottom sx={{ color: "#013E6F" }}>
               O escríbenos a:
             </Typography>
             <Button
               variant="contained"
-              color="secondary"
-              startIcon={<MailIcon />}
-              href="mailto:contacto@artico.com"
-              sx={{ fontSize: "1.2rem", padding: "10px 20px", marginBottom: "20px" }}
+              color="primary"
+              sx={{
+                fontSize: "1.2rem",
+                padding: "10px 20px",
+                marginBottom: "10px",
+                backgroundColor: "#013E6F",
+              }}
             >
-              contacto@artico.com
+              articobolivia@gmail.com
             </Button>
           </Grid>
 
           {/* Bloque de redes sociales o más opciones */}
           <Grid item xs={12} md={4} textAlign="center">
-            <Typography variant="h6" gutterBottom sx={{ color: "#0277bd" }}>
+            <Typography variant="h6" gutterBottom sx={{ color: "#013E6F" }}>
               Síguenos:
             </Typography>
             <Button
@@ -67,7 +73,7 @@ const ContactList = () => {
                 fontSize: "1.2rem",
                 padding: "10px 20px",
                 marginBottom: "10px",
-                backgroundColor: "#0d47a1",
+                backgroundColor: "#013E6F",
               }}
             >
               Facebook
@@ -79,7 +85,8 @@ const ContactList = () => {
               sx={{
                 fontSize: "1.2rem",
                 padding: "10px 20px",
-                backgroundColor: "#1976d2",
+                backgroundColor: "#013E6F",
+                
               }}
             >
               Instagram
@@ -88,7 +95,8 @@ const ContactList = () => {
         </Grid>
 
         <Typography variant="body1" align="center" sx={{ marginTop: "30px", color: "#555" }}>
-          ¡Estamos para ayudarte con cualquier consulta! No dudes en llamarnos o escribirnos.
+        <p>2024 © Copyright articobolivia - Todos los derechos reservados</p>
+        <p>Condiciones de uso | Privacidad | Política de cookies</p>
         </Typography>
       </Container>
     </Box>
