@@ -22,8 +22,8 @@ const Socio = () => {
             src="https://kavidoors.com/wp-content/uploads/2015/05/engineer.png"
             alt="Años de experiencia"
           />
-          <p className="text-4xl font-bold">45</p>
-          <p className="text-gray-300">Años de experiencia</p>
+          <p className="text-4xl font-bold">100+</p>
+          <p className="text-gray-300">Calidad</p>
         </div>
 
         {/* Columna 2 */}
