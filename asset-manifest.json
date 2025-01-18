@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/artico/static/css/main.06137229.css",
-    "main.js": "/artico/static/js/main.00e1ce92.js",
+    "main.js": "/artico/static/js/main.e79c35d9.js",
     "static/js/787.fb224134.chunk.js": "/artico/static/js/787.fb224134.chunk.js",
     "static/media/pvc.png": "/artico/static/media/pvc.8481b22b96bf7f5c2c32.png",
     "static/media/cam.png": "/artico/static/media/cam.939d1ea3d5359e8ba111.png",
@@ -40,11 +40,11 @@
     "static/media/slick.woff": "/artico/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/artico/index.html",
     "main.06137229.css.map": "/artico/static/css/main.06137229.css.map",
-    "main.00e1ce92.js.map": "/artico/static/js/main.00e1ce92.js.map",
+    "main.e79c35d9.js.map": "/artico/static/js/main.e79c35d9.js.map",
     "787.fb224134.chunk.js.map": "/artico/static/js/787.fb224134.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06137229.css",
-    "static/js/main.00e1ce92.js"
+    "static/js/main.e79c35d9.js"
   ]
 }
